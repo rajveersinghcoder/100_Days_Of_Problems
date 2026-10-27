@@ -9,7 +9,7 @@ Sum=15
 Input 2:
 10
 Output 2:
-Sum=
+Sum=55
 
 */
 
