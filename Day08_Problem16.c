@@ -13,28 +13,32 @@ Largest is 0
 
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
     int a;
     int b;
     int c;
 
- printf("Enter three numbers :");
-scanf("%d %d %d" , &a, &b,  &c);
+    printf("Enter three numbers :");
+    scanf("%d %d %d", &a, &b, &c);
 
     if (a > b || b > c || c > a)
-    
-     if (a >= b && a >= c) {
-        printf("Largest is %d", a);
-    }
-    else if (b >= a && b >= c) {
-        printf("Largest is %d", b);
-    }
-    else {
-        printf("Largest is %d", c);
-    }
+
+        if (a >= b && a >= c)
+        {
+            printf("Largest is %d\n", a);
+        }
+     if (b >= a && b >= c)
+        {
+            printf("Largest is %d\n", b);
+        }
+        else
+        {
+            printf("Largest is %d\n", c);
+        }
 
     return 0;
 }
