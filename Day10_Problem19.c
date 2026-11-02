@@ -17,3 +17,29 @@ Output 3:
 Scalene
 
 */
+#include<stdio.h>
+
+int main(){
+
+
+
+    int a;
+    int b;
+    int c;
+
+    printf("Enter Sides of triangle :");
+    scanf("%d %d %d" ,&a ,&b, &c);
+
+    if (a == b && b== c)
+    {
+        printf("Equilateral triangle\n");
+    }
+    else if (a == b || b == c || c==a)
+    {
+       printf("Isosceles triangle\n");
+    }
+    else 
+    printf("Scalene Triangle\n");
+
+    return 0;
+}
