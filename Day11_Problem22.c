@@ -32,13 +32,13 @@ int main()
     {
         profit = sp - cp;
         percent = (profit / cp) * 100;
-        printf("Profit %.0f%%", percent);
+        printf("Profit %.0f%%\n", percent);
     }
     else if(cp > sp)
     {
         loss = cp - sp;
         percent = (loss / cp) * 100;
-        printf("Loss %.0f%%", percent);
+        printf("Loss %.0f%%\n", percent);
     }
     else
     {
