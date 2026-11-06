@@ -27,7 +27,7 @@ int main()
         product = product * i;
     }
 
-    printf("%d", product);
+    printf("%d\n", product);
 
     return 0;
 }
