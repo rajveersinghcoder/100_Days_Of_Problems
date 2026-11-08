@@ -33,11 +33,11 @@ int main()
 
     if (original == reverse)
     {
-        printf("Palindrome");
+        printf("Palindrome\n");
     }
     else
     {
-        printf("Not palindrome");
+        printf("Not palindrome\n");
     }
 
     return 0;
