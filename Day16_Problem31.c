@@ -30,7 +30,7 @@ int main()
         place = place * 10;
     }
 
-    printf("%d", binary);
+    printf("%d\n", binary);
 
     return 0;
 }
