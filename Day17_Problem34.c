@@ -9,7 +9,7 @@ Prime
 Input 2:
 10
 Output 2:
-Not prime
+Not prim
 
 */
 
