@@ -34,7 +34,7 @@ int main()
         n = n / 10;
     }
 
-    printf("%d", product);
+    printf("%d\n", product);
 
     return 0;
 }
