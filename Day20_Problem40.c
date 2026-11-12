@@ -34,7 +34,7 @@ int main()
         }
     }
 
-    printf("%s", bin);
+    printf("%s\n", bin);
 
     return 0;
 }
