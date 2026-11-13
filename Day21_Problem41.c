@@ -37,7 +37,7 @@ int main()
 
     result = result - first * divisor + first * divisor;
 
-    printf("%d", result);
+    printf("%d\n", result);
 
     return 0;
 }
