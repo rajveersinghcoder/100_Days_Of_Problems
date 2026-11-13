@@ -34,11 +34,11 @@ int main()
 
     if (sum == n)
     {
-        printf("Perfect number");
+        printf("Perfect number\n");
     }
     else
     {
-        printf("Not perfect number");
+        printf("Not perfect number\n");
     }
 
     return 0;
