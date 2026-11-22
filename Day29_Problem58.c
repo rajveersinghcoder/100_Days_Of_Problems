@@ -26,7 +26,7 @@ printf("Number of elements in array :");
 
     for ( i = 0; i < n; i++)
     {
-        scanf("%d" ,&arr[i]);
+        scanf("%d" ,&arr[i])
     }
 
      max = arr[0];
